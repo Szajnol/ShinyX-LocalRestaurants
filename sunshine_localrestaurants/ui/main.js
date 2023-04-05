@@ -19,6 +19,7 @@ $(document).ready(function(){
         $.post("https://sunshine_localrestaurants/buy", JSON.stringify({}));
         $(`#pop-info`).hide()
         $(`#info-6`).hide()
+        console.log("Kupiono")
         return;
     })
 
@@ -27,6 +28,7 @@ $(document).ready(function(){
         $.post("https://sunshine_localrestaurants/closeui", JSON.stringify({}));
         $(`#pop-info`).hide()
         $(`#info-6`).hide()
+        console.log("Zamknięto")
         return;
     })
 
